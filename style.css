@@ -1,0 +1,367 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+h1{
+  background-color: #333;
+}
+
+.python h1 {
+  background-image: url("https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2018/12/azul-escuro9-1024x640.jpg?resize=696%2C435&ssl=1");
+  background-size: 100%;
+}
+.bootstrap h1 {
+  background-image: url("imagens/bootback.gif");
+  background-size: 100%;
+
+}
+.javasc h1 {
+  background-image: url("https://i.gifer.com/O0ca.gif");
+  background-size: 100%;
+  color: #000000;
+}
+
+ion-icon{
+  font-size: 35px;
+  color: #f700ff;
+  background-color: #5200407c;
+  border-radius: 49%;
+}
+.nome{
+  position: relative;
+  right: 0%;
+  left: 0%;
+  top: 7px;
+}
+.formacao{
+  position: relative;
+  right: 0%;
+  left: 0%;
+  top: -10px;
+
+
+}
+.sobre{
+position:relative ;
+right: 0%;
+left: 0%;
+top: 0%;
+}
+.sobre h4 {
+font-size: 13px;
+text-align: center;
+margin-bottom: 10px;
+font-weight: bold;
+color: #ffffff;
+}
+.icones{
+  position: relative;
+  right: 0%;
+  left: 0%;
+  top: 0%
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-image: url("imagens/circulo/fire.gif");
+  background-size: 41%;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.background-image {
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.gallery-item {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.gallery-item img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.gallery-item p {
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+.gallery-item p span {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.contact-info p {
+  margin: 0px 0;
+}
+
+
+#contatoBtn {
+  background-color: #494040;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#contatoBtn:hover {
+  background-color: #000520;
+}
+
+#fecharBtn {
+  background-color: #0505b4;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 0%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#fecharBtn:hover {
+  background-color: #150071;
+}
+
+
+
+
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    padding: 30px;
+  }
+
+  .profile-pic {
+    width: 137px;
+    height: 140px;
+  }
+
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 20px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 220px;
+    height: 220px;
+  }
+  .gallery-item {
+    flex-basis: 20%;
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+  .container {
+    padding: 32px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 200px;
+    height: 209px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 20px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 220px;
+    height: 220px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .container {
+    padding: 14px;
+    background-size: 43%;
+    
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .container {
+    padding: 12px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 153px;
+    height: 153px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 15px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 134px;
+    height: 135px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 393px) {
+  .container {
+    padding: 13px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 144px;
+    height: 145px;
+  }
+  .gallery-item {
+    flex-basis: 42%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .container {
+    padding: 11px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 133px;
+    height: 134px;
+  }
+  .gallery-item {
+    flex-basis: 42%;
+  }
+}
+
+footer {
+  background-image: url("imagens/tempestade.gif");
+  padding: 1px;
+  background-position: center;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  transform: translateX(-300px);
+  transition: transform 0.3s ease;
+  visibility: hidden;
+  z-index: 1;
+  background-image: url("imagens/leão.gif.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-y: 250px;
+
+}
+
+#menuBtn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 5px;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.menu-open #sidebar {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.menu-open #menuBtn {
+  transform: translateX(140px);
+}
