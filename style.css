@@ -222,6 +222,22 @@ color: #ffffff;
     flex-basis: 40%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 226px;
+    height: 223px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+
 @media screen and (max-width: 720px) {
   .container {
     padding: 20px;
@@ -231,6 +247,22 @@ color: #ffffff;
     display: flex;
     width: 220px;
     height: 220px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 451px) {
+  .container {
+    padding: 14px;
+    background-size: 39%;
+    
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
   }
   .gallery-item {
     flex-basis: 40%;
