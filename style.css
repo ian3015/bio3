@@ -179,12 +179,12 @@ color: #ffffff;
 
 @media screen and (max-width: 850px) {
   .container {
-    padding: 30px;
+    padding: 19px;
   }
 
   .profile-pic {
-    width: 137px;
-    height: 140px;
+    width: 224px;
+    height: 224px;
   }
 
   .gallery-item {
@@ -222,6 +222,20 @@ color: #ffffff;
     flex-basis: 40%;
   }
 }
+@media screen and (max-width: 775px) {
+  .container {
+    padding: 20px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 226px;
+    height: 223px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -252,10 +266,90 @@ color: #ffffff;
     flex-basis: 40%;
   }
 }
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 14px;
+    background-size: 39%;
+    
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
 @media screen and (max-width: 451px) {
   .container {
     padding: 14px;
     background-size: 39%;
+    
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 435px) {
+  .container {
+    padding: 14px;
+    background-size: 43%;
+    
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .container {
+    padding: 14px;
+    background-size: 43%;
+    
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 14px;
+    background-size: 43%;
+    
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 150px;
+    height: 150px;
+  }
+  .gallery-item {
+    flex-basis: 40%;
+  }
+}
+@media screen and (max-width: 415px) {
+  .container {
+    padding: 14px;
+    background-size: 43%;
     
   }
 
@@ -301,13 +395,13 @@ color: #ffffff;
 }
 @media screen and (max-width: 400px) {
   .container {
-    padding: 15px;
+    padding: 12px;
   }
 
   .profile-pic {
     display: flex;
-    width: 134px;
-    height: 135px;
+    width: 146px;
+    height: 148px;
   }
   .gallery-item {
     flex-basis: 40%;
@@ -336,6 +430,20 @@ color: #ffffff;
     display: flex;
     width: 133px;
     height: 134px;
+  }
+  .gallery-item {
+    flex-basis: 42%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container {
+    padding: 7px;
+  }
+
+  .profile-pic {
+    display: flex;
+    width: 115px;
+    height: 115px;
   }
   .gallery-item {
     flex-basis: 42%;
